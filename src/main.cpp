@@ -3,9 +3,11 @@
 #include <cstdlib>
 #include <iostream>
 #include <stdexcept>
+#include <locale>
 
 int main()
 {
+    setlocale(LC_ALL,"");
     lve::FirstApp app{};
 
     try
