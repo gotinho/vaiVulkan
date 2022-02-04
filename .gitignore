@@ -1,0 +1,6 @@
+build/
+.vscode/
+lib/glm/doc/
+lib/glm/cmake/
+lib/glm/test/
+lib/glm/util/
